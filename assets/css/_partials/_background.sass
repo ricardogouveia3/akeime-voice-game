@@ -1,0 +1,50 @@
+.background
+  height: 100%
+  position: relative
+  width: 100%
+  z-index: 0
+
+.background__horizon
+  background-color: $spray
+  height: 100%
+  width: 100%
+
+.background__cloud,
+.background__island
+  position: absolute
+
+.background__cloud
+  animation-duration: 15s
+  animation-iteration-count: infinite
+  animation-name: cloud-movement
+  animation-timing-function: linear
+  zoom: 4
+
+@keyframes cloud-movement
+  0%
+    margin-left: 0
+
+  50%
+    margin-left: 50px
+
+  100%
+    margin-left: 0
+
+
+.background__cloud__1
+  left: 20%
+  top: 0
+
+.background__cloud__2
+  left: 70%
+  top: 10%
+
+.background__island__1
+  bottom: 30%
+  left: 20%
+  zoom: 2.5
+
+.background__island__2
+  right: 5%
+  top: 15%
+  zoom: 2.5
