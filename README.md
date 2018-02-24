@@ -2,9 +2,9 @@
   <img src="<-- LOGO -->" width="100">
 </p>
 
-# My Grunt Project Boilerplate
+# Akeime Voice Game
 
-[Access the website](<-- URL -->)
+[Access the website](http://rcrd.me/akeime-voice-game)
 
 This project uses:
 - [Pug](https://pugjs.org/)
@@ -24,8 +24,8 @@ First of all, install the dependencies to run this boilerplate.
 ```sh
 
 # Clone this repository
-git clone git@github.com:ricardogouveia3/<-- REPO -->
-cd <-- REPO -->
+git clone git@github.com:ricardogouveia3/akeime-voice-game.git
+cd akeime-voice-game.git
 
 # install dependencies
 npm install
@@ -44,6 +44,7 @@ After that, you should be good to go :)
 │   ├── js/
 │   │   ├── modules/
 │   │   └── index.min.js
+│   ├── audio/
 ├── includes/
 │   └── *.pug
 ├── Gruntfile.js

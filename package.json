@@ -1,12 +1,12 @@
 {
-  "name": "project_name",
-  "version": "0.1.0",
-  "description": "Project_Description",
-  "url": "",
+  "name": "akeime-voice-game",
+  "version": "1.0.0",
+  "description": "This is a simple game in HTML5 without canvas feature, only for testing game experience with web speech API",
+  "url": "http://rcrd.me/akeime-voice-game",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/ricardogouveia3/akeime-voice-game.git"
   },
   "devDependencies": {
     "eslint-config-google": "^0.9.1",
