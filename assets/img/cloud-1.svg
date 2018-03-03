@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><title>  Rectangle-path</title><desc>  Created with Sketch.</desc><g fill="none"><g fill="#FFF"><path d="M20 10L20 0 10 0 10 10 0 10 0 20 10 20 10 30 20 30 20 20 30 20 30 10 20 10Z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path d="M20 10V0H10v10H0v10h10v10h10V20h10V10H20z" fill="#FFF"/></svg>

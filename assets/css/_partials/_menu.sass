@@ -1,9 +1,9 @@
-.menu
+.about
   background-color: $asbestos
   border: 1px solid $white
   cursor: pointer
   left: 1em
-  padding: 1ch
+  padding: .6ch
   position: absolute
   text-align: center
   top: 1em
@@ -12,6 +12,31 @@
   &:hover
     background-color: $concrete
 
-.menu__title
+.about__title
   color: $white
   font-family: $pixeled
+
+
+.actions
+  bottom: 0
+  position: absolute
+  z-index: 100
+
+.actions__list
+  display: flex
+  flex-wrap: nowrap
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+.actions__list__item
+  background-color: $asbestos
+  border: 1px solid $white
+  color: $white
+  cursor: pointer
+  font-family: $pixeled
+  padding: .6ch
+  text-align: center
+
+  &:hover
+    background-color: $concrete

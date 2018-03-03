@@ -1,0 +1,55 @@
+.action__jump
+  animation-name: action-jump
+  animation-duration: 1.5s
+  animation-iteration-count: 1
+  animation-timing-function: ease
+
+@keyframes action-jump
+  0%
+    bottom: calc(0px + 10%)
+  25%
+    bottom: calc(0px + 40%)
+  50%
+    bottom: calc(0px + 10%)
+  75%
+    bottom: calc(0px + 15%)
+  100%
+    bottom: calc(0px + 10%)
+
+
+.action__walk-left
+  animation-name: walk-left
+  animation-duration: 4s
+  animation-iteration-count: 1
+  animation-timing-function: ease
+
+@keyframes walk-left
+  0%
+    left: calc(50% - 50px)
+  25%
+    left: calc(20% - 50px)
+  50%
+    left: calc(20% - 50px)
+  75%
+    left: calc(20% - 50px)
+  100%
+    left: calc(50% - 50px)
+
+
+.action__walk-right
+  animation-name: walk-right
+  animation-duration: 4s
+  animation-iteration-count: 1
+  animation-timing-function: ease
+
+@keyframes walk-right
+  0%
+    left: calc(50% - 50px)
+  25%
+    left: calc(80% - 50px)
+  50%
+    left: calc(80% - 50px)
+  75%
+    left: calc(80% - 50px)
+  100%
+    left: calc(50% - 50px)
