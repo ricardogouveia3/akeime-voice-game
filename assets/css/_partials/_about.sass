@@ -1,0 +1,62 @@
+.about-modal
+  display: none
+  position: absolute
+  z-index: 100
+  background-color: $asbestos
+  border: 1px solid $white
+  color: $white
+  font-family: $pixeled
+  padding: 1ch
+  text-align: justify
+  width: 75%
+  min-width: 320px
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+  max-width: 700px
+
+  @media (max-width: 700px)
+    max-width: unset
+    width: 100%
+
+.about-modal__title
+  font-size: 1.3em
+  display: block
+  margin: 0 auto
+  margin-bottom: .4em
+  text-align: center
+
+  @media (max-width: 500px)
+    font-size: 1em
+
+.about-modal__subtitle
+  font-size: 1.1em
+
+  @media (max-width: 500px)
+    font-size: .9em
+
+.about-modal__text
+  margin-top: 0
+  font-size: .79em
+  word-break: keep-all
+
+  @media (max-width: 500px)
+    font-size: .6em
+
+
+.about-modal__close-tip
+  display: block
+  margin: 0 auto
+  font-size: .5em
+  text-align: center
+
+.close-about
+  display: none
+  width: 100%
+  height: 100%
+  background-color: $black
+  opacity: .8
+  cursor: pointer
+  z-index: 99
+  position: absolute
+

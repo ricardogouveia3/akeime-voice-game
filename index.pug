@@ -20,23 +20,27 @@ html(lang='pt-br')
 
   body
     nav.about
-      span.about__title About
+      span.about__title#aboutButtom(onClick='openAbout()') About
 
-  div.about-modal
-    span.about-modal__title
-      | Sobre o Jogo
-    span.about-modal__subtitle
-      | Objetivo:
-    p.about-modal__text
-      | O objetivo da aplicação é testar a interação da Web Speech API com animações CSS. Não há um objetivo do jogo em si.
-    span.about-modal__subtitle
-      | Tecnologia Assistiva/Necessidade especial: 
-    p.about-modal__text
-      | A Web Speech API pode ser considerada uma ferramenta para pessoas com dificuldade para utilizar mouse, teclado, e outros dispositivos que exijam habilidade motora. A página também busca atender requerimentos de acessibilidade padrão em HTML.
-    span.about-modal__subtitle
-      | Equipe
-    p.about-modal__text
-      | Antônio David Brito Lima; Laurene Mitie Rodrigues Okada; Ricardo Álvaro Gouveia Gomes Filho; Wilker Correia Chaves
+    div.close-about#closeAbout(onClick='closeAbout()')
+
+    div.about-modal#modalAbout
+      span.about-modal__title
+        | Sobre a aplicação
+      span.about-modal__subtitle
+        | Objetivo:
+      p.about-modal__text
+        | O objetivo da aplicação é testar a interação da Web Speech API com animações CSS. Não há um objetivo do jogo em si.
+      span.about-modal__subtitle
+        | Tecnologia Assistiva/Necessidade especial: 
+      p.about-modal__text
+        | A Web Speech API pode ser considerada uma ferramenta para pessoas com dificuldade para utilizar mouse, teclado, e outros dispositivos que exijam habilidade motora. A página também busca atender requerimentos de acessibilidade padrão em HTML.
+      span.about-modal__subtitle
+        | Equipe
+      p.about-modal__text
+        | Antônio David Brito Lima; Laurene Mitie Rodrigues Okada; Ricardo Álvaro Gouveia Gomes Filho; Wilker Correia Chaves
+      span.about-modal__close-tip
+        | Clique fora esta caixa para fecha-la
 
 
     div#testBall.test-ball
