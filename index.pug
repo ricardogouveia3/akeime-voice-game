@@ -20,7 +20,7 @@ html(lang='pt-br')
 
   body
     nav.about
-      span.about__title#aboutButtom(onClick='openAbout()') About
+      span.about__title#aboutButtom(onClick='openAbout()') Sobre
 
     div.close-about#closeAbout(onClick='closeAbout()')
 
@@ -47,9 +47,11 @@ html(lang='pt-br')
 
     nav.actions
       ul.actions__list
-        li#buttomJump.actions__list__item.actions__list__item_jump(onClick='jump()') Jump
-        li#buttomWalkLeft.actions__list__item.actions__list__item_walk-left(onClick='walkLeft()') Walk Left
-        li#buttomWalkRight.actions__list__item.actions__list__item_walk-right(onClick='walkRight()') Walk Right
+        li#buttomJump.actions__list__item.actions__list__item_jump(onClick='jump()') Pular
+        li#buttomWalkLeft.actions__list__item.actions__list__item_walk-left(onClick='walkLeft()') Andar &lArr;
+        li#buttomWalkRight.actions__list__item.actions__list__item_walk-right(onClick='walkRight()') Andar &rArr;
+        li#failIndicator.actions__list__item.actions__list__item_not-in-list ?
+        li#btn_gravar_audio.actions__list__item.actions__list__item_record Reconhecer voz
 
     div.background
       img.background__cloud.background__cloud__1(src='assets/img/cloud-1.svg')
@@ -65,7 +67,7 @@ html(lang='pt-br')
 
     //- JS scripts
     //- ===================================
-    script(async, src='assets/js/index.min.js')
+    script(src='assets/js/index.min.js')
 
   //- Stylesheet and fonts
   //- ===================================
