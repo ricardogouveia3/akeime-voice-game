@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
           } else {
             failed.style.backgroundColor = "#d63031";
-            failed.innerHTML = resultado;
+            failed.innerHTML = "Texto reconhecido não é um comando";
           }
         }
 
